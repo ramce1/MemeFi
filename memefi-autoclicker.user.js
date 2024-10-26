@@ -41,7 +41,7 @@ console.log(`${logPrefix}Starting`, styles.starting);
 console.log(`${logPrefix}Created by https://t.me/mudachyo`, styles.starting);
 console.log(`${logPrefix}Github https://github.com/mudachyo/MemeFi-Coin`, styles.starting);
 
-let isGamePaused = false;
+let isGamePaused = true;
 
 function triggerClick(element) {
   const randomX = Math.floor(Math.random() * 422);
